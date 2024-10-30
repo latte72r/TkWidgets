@@ -13,7 +13,7 @@
 
 ## スクリーンショット
 
-![image](.image.png)  
+<img src="./image.png" width=256>
 
 ## インストール
 
