@@ -22,3 +22,4 @@
    ```bash
    git clone https://github.com/yourusername/TkWidgets.git
    cd TkWidgets
+   python3 -m tkwidgets
