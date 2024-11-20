@@ -1,24 +1,33 @@
 # TkWidgets
 
-このプロジェクトは、`CheckButton`、`RadioButton`、`ToggleButton`などのカスタムTkinterウィジェットのコレクションです。
-これらのウィジェットは、標準のTkinterウィジェットと比較して、デザインや動作の面でより柔軟性と機能を提供します。
+このプロジェクトは、`CheckButton`、`RadioButton`、`ToggleButton`などのカスタムTkinterウィジェットのコレクションです。  
+標準のTkinterウィジェットと比較して、デザインと機能の面でより柔軟で拡張性のあるインターフェースを提供します。  
 
-## 機能
+## 主な特徴
 
-- **CheckButton**: 3つの状態 (`UNCHECKED`、`CHECKED`、`INDETERMINATE`) を持つカスタムチェックボタン。
-- **RadioButton**: グループで動作するカスタムラジオボタン（1つのオプションのみ選択可能）。
-- **ToggleButton**: ONとOFFの状態を切り替えるカスタムトグルボタン。
+- **`CheckButton`**: 3つの状態（`UNCHECKED`、`CHECKED`、`INDETERMINATE`）を持つカスタムチェックボタン。
+- **`RadioButton`**: 同じグループ内で1つのオプションのみを選択可能なカスタムラジオボタン。
+- **`ToggleButton`**: `ON`と`OFF`を切り替えられるカスタムトグルボタン。
 
-このプロジェクトには、これらのウィジェットを使用したTkinterによるシンプルなGUIのデモも含まれています。
+さらに、これらのウィジェットを用いた簡単なTkinter GUIデモを含んでいます。
 
 ## スクリーンショット
 
+以下は、ウィジェットを使用したサンプルGUIのスクリーンショットです。
+
 <img src="./image.png" width=256>
 
-## インストール
+## インストール方法
 
-1. このリポジトリをクローンします:  
+1. **リポジトリをクローン**します:
 
-   ```bash
-   git clone https://github.com/yourusername/TkWidgets.git
-   cd TkWidgets
+    ```bash
+    git clone https://github.com/yourusername/TkWidgets.git
+    cd TkWidgets
+    ```
+
+2. **デモを実行**します:
+
+    ```bash
+    python3 -m tkwidgets
+
